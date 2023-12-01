@@ -1,0 +1,76 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container
+{
+    background-color: #303030;
+}
+
+.img-Box img,canvas
+{
+   width: 70vh;
+   height: 80vh;
+   
+  
+}
+.upload label
+{
+    font-size: 18px;
+    color: #fff;
+    border: 1px #fff dashed;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.filters ul
+{
+    list-style-type: none;
+    direction: rtl;
+   
+}
+.filters ul li
+{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 5px ;
+   
+}
+.filters ul li input 
+{
+    cursor: pointer;
+}
+
+ul li:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+ul li:last-child a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+ul li:last-child a ,span
+{
+    font-size: 18px;
+    background-color: green;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
